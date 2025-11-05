@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 02</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/exercise_02.css">
+    <script src="../scripts/hints.js" defer></script>
+    <script src="../scripts/nav.js" defer></script>
+</head>
+
+<body>
+    <nav id="main-nav">
+    </nav>
+    <main id="main-content">
+        <div class="main-info">Hint: Use &lt;textarea&gt;&lt;/textarea&gt; for the review field.
+            <br>
+            Text area needs a closing tag, unlike the usual input field!
+        </div>
+        <form class="column contact-form" data-js-group>
+            <h1 class="contact-heading">CONTACT US</h1>
+            <p class="contact-text">If you didn't find an answer to your question in the FAQ, don't hesitate to send us
+                a message. We try to get back to everyone within a day!</p>
+            <label for="review">Ask us anything</label>
+            <textarea id="review" class="c-input" placeholder="Your Message"></textarea>
+
+            <div class="row contact-row" data-js-group>
+                <label for="c-email">Your Email</label>
+                <input type="email" class="c-input" placeholder="Email address">
+                <button type="submit" class="c-btn">SEND</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
