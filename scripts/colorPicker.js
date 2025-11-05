@@ -21,11 +21,11 @@ async function copyToClipboard(text) {
 // Helper: flash button feedback
 function flashButton(btn, label, cls) {
     const original = btn.textContent;
-    btn.classList.remove('copied', 'error');
+    btn.classList.remove('done', 'error');
     if (cls) btn.classList.add(cls);
     btn.textContent = label;
     setTimeout(() => {
-        btn.classList.remove('copied', 'error');
+        btn.classList.remove('done', 'error');
         btn.textContent = original;
     }, 900);
 }
@@ -62,5 +62,5 @@ document.addEventListener('click', async (e) => {
     }
 
     await copyToClipboard(hex);
-    flashButton(btn, 'Copied!', 'copied');
+    flashButton(btn, 'done', 'copied');
 });
