@@ -77,6 +77,51 @@ body {
     border-radius: 4px;
 }
 
+.color-palette {
+    position: absolute;
+    right: 32px;
+    top: 8px;
+    font-weight: 800;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 4px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 12px;
+
+    >.label {
+        font-size: 14px;
+        font-weight: 800;
+        border-bottom: 1px solid white;
+        width: 100%;
+    }
+}
+
+.color-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.color-preview-box {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    background-color: gray;
+}
+
+.copy-btn {
+    border: none;
+    border-radius: 4px;
+    padding: 2px 4px;
+    background-color: black;
+    font-weight: 800;
+    color: white;
+    margin-left: auto;
+}
+
 .column {
     position: relative;
 }

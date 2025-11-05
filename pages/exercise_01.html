@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/exercise_01.css">
     <script src="../scripts/hints.js" defer></script>
     <script src="../scripts/nav.js" defer></script>
+    <script src="../scripts/colorPicker.js" defer></script>
 </head>
 
 <body>
@@ -16,7 +17,27 @@
     </nav>
     <main id="main-content">
         <div class="main-info">Hint: Make 1 testimonial, then duplicate it, and group them </div>
-
+        <div class="color-palette">
+            <span class="label">Color Palette</span>
+            <div class="color-row" data-js-color-row>
+                <span class="color-preview-box"></span>
+                <span class="color-name">background</span>
+                <span class="hex">#02080c</span>
+                <button class="copy-btn" type="button">Copy</button>
+            </div>
+            <div class="color-row" data-js-color-row>
+                <span class="color-preview-box"></span>
+                <span class="color-name">dark blue</span>
+                <span class="hex">#031725</span>
+                <button class="copy-btn" type="button">Copy</button>
+            </div>
+            <div class="color-row" data-js-color-row>
+                <span class="color-preview-box"></span>
+                <span class="color-name">white</span>
+                <span class="hex">#FFFFFF</span>
+                <button class="copy-btn" type="button">Copy</button>
+            </div>
+        </div>
         <div class="column testimonials" data-js-group>
             <div class="row testimonial" data-js-group>
                 <img src="../assets/review_av.png" alt="avatar">
