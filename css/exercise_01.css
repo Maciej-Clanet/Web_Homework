@@ -1,0 +1,31 @@
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.testimonial {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: var(--dark-blue);
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.t-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.t-title {
+    font-weight: 800;
+}
+
+.t-name {
+    align-self: flex-end;
+    font-size: 12px;
+    font-weight: 800;
+}
