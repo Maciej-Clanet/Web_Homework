@@ -1,0 +1,26 @@
+.tasks {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dark-blue);
+    padding: 32px;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 500px;
+    gap: 16px;
+}
+
+.task {
+    background-color: #abf1ee;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    transition: filter 0.2s ease-in-out;
+
+    &:hover {
+        filter: brightness(1.2);
+    }
+}

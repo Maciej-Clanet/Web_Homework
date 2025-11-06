@@ -1,3 +1,4 @@
+
 function parseHex(text) {
     const t = text.trim();
     return /^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$/.test(t) ? t : null;
