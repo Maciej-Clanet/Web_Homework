@@ -12,7 +12,7 @@ fetch(url)
     .then((data) => {
         for (let task of data) {
             tasks.innerHTML += `
-                <label class="task">
+                <label class="task "  >
                     <input type="checkbox">
                     <span class="task-title">${task}</span>
                 </label>
