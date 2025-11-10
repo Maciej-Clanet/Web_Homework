@@ -1,4 +1,4 @@
-const pages = ["exercise_01.html", "exercise_02.html", "exercise_03.html", "exercise_04.html"];
+const pages = ["exercise_01.html", "exercise_02.html", "exercise_03.html", "exercise_04.html", "exercise_05.html"];
 const nav = document.getElementById("main-nav");
 
 // Are we currently inside /pages/ ?
